@@ -23,6 +23,8 @@ jobs:
           libraries: |
             - source-path: ./
             - name: ArduinoJson
+            - name: PubSubClient
+            - name: WebSockets
           sketch-paths: |
-            - examples/
+            - examples/simpleServer
           enable-warnings-report: true
